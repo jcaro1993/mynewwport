@@ -1,6 +1,6 @@
 import React from 'react'
 import './main.css'
-import JC from '../../assets/pic.PNG';
+import JC from '../../assets/pic2.png';
 
 
 const styles = {

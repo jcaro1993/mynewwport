@@ -2,7 +2,7 @@ import React from 'react';
 import Reveal from 'react-reveal/Reveal';
 import GridComponent from '../../componets/Portfolio/grid'; 
 import './pro.css';
-import JC from '../../assets/pic.PNG'
+import JC from '../../assets/pic2.png'
 import Clock from '../../assets/clock.jpg'
 import Rabbit from '../../assets/rabbit.png'
 import Code from '../../assets/code.jpg'
