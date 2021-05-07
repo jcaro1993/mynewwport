@@ -44,5 +44,5 @@ export default function contact() {
             <p>Resume: https://drive.google.com/file/d/1nhtmj4ltBOi5nXgdEvM8HRwgstCmvW6b/view?usp=sharing</p>
             <p>Mob: ‪(925)639.2515</p>
         </div>
-)
+        )
     }
