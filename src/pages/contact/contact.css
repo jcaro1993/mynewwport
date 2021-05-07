@@ -1,122 +1,143 @@
 .contact{
-    background-color: #f7f7f7;
-    padding: 10px 180px;
+  background-color: #fafafa;
+  padding: 10px 180px;
 }
 .contact__form {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  margin: 0 auto;
+}
+.contact__form > h1 {
+text-align: center;
+font-weight: bold;
+padding: 50px;
+}
+#contact{
+  color: #343A3F;
+  padding-right: 20px;
+}
+#contact:hover{
+  background-color: #343A3F;
+  border-radius: 3px;
+  color: #fafafa;
+  text-decoration: none; 
+}
+#contact:link{
+  text-decoration: none; 
+}
+.contact__JC > p{
+  align-items: start;
+}
+.contact__JC{
+  color: #343A3F;
+  margin: 20px;
+  padding: 10px;
+}
+.form > input,
+textarea {
+  padding: 20px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  background: #fff;
+  font-size: 16px;
+  color: black;
+  outline: none;
+}
+.contact__form > input:focus,
+textarea:focus {
+  border: 1px solid black;
+  outline: none;
+}
+.contact__form > textarea {
+  height: 150px;
+  max-width: 400px;
+  min-height: 100px;
+}
+.contact__form > label {
+  padding-bottom: 10px;
+  color: black;
+  font-weight: bold;
+}
+.contact__form > button {
+  padding: 20px;
+  border: none;
+  background-color: #343A3F;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  margin-top: 10px;
+  border: none;
+}
+.contact__form > button:hover {
+  background-color: #fafafa;
+  color: black;
+  border: 2px solid black;
+  font-weight:bolder;
+}
+h2{
+  text-align: center;
+  padding-bottom: 20px;
+}
+p{
+  text-align: center!important;
+  padding: 0px;
+}
+@media (max-width:500px){
+  .contact{
+    background-color: #fafafa;
+    margin-top: -140px; 
+    padding:10px;
+    display: flex;
+    align-items: center;
+  }
+  .contact__form {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 400px;
+    width: 300px;
     margin: 0 auto;
+    height: 100vh;
   }
   .contact__form > h1 {
-  text-align: center;
-  font-weight: bold;
-  padding: 50px;
+    margin-bottom: 10px;
   }
   .form > input,
   textarea {
-    padding: 20px;
+    padding: 10px;
     border-radius: 3px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     border: 1px solid black;
     background: #fff;
-    font-size: 16px;
+    font-size: 18px;
     color: black;
     outline: none;
-  }
-  .contact__form > input:focus,
-  textarea:focus {
-    border: 1px solid black;
-    outline: none;
-  }
-  .contact__form > textarea {
-    height: 150px;
-    max-width: 400px;
-    min-height: 100px;
-  }
-  .contact__form > label {
-    padding-bottom: 10px;
-    color: black;
-    font-weight: bold;
   }
   .contact__form > button {
-    padding: 20px;
+    padding: 10px;
     border: none;
-    background-color: #343A3F;
-    font-weight: 500;
-    font-size: 20px;
+    background-color: black;
+    font-weight: 200;
+    font-size: 15px;
     border-radius: 3px;
     color: #fff;
     cursor: pointer;
     transition: 0.2s ease-in-out;
-    margin-top: 10px;
+    margin-top: 5px;
     border: none;
-  }
-  .contact__form > button:hover {
-    background-color: #fafafa;
-    color: black;
-    border: 2px solid black;
-    font-weight:bolder;
+    outline: none;
   }
   h2{
-    text-align: center;
-    padding-bottom: 20px;
+   display: none;
   }
   p{
-    text-align: center!important;
-    padding: 0px;
+    display: none;
   }
-  @media (max-width:500px){
-    .contact{
-      background-color: #fafafa;
-      margin-top: -140px; 
-      padding:10px;
-      display: flex;
-      align-items: center;
-    }
-    .contact__form {
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      width: 300px;
-      margin: 0 auto;
-      height: 100vh;
-    }
-    .contact__form > h1 {
-      margin-bottom: 10px;
-    }
-    .form > input,
-    textarea {
-      padding: 10px;
-      border-radius: 3px;
-      margin-bottom: 5px;
-      border: 1px solid black;
-      background: #fff;
-      font-size: 18px;
-      color: black;
-      outline: none;
-    }
-    .contact__form > button {
-      padding: 10px;
-      border: none;
-      background-color: black;
-      font-weight: 200;
-      font-size: 15px;
-      border-radius: 3px;
-      color: #fff;
-      cursor: pointer;
-      transition: 0.2s ease-in-out;
-      margin-top: 5px;
-      border: none;
-      outline: none;
-    }
-    h2{
-     display: none;
-    }
-    p{
-      display: none;
-    }
-  }
+}

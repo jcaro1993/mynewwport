@@ -1,7 +1,6 @@
 import React from 'react'
 import './contact.css'
 import emailjs from "emailjs-com";
-
 export default function contact() {
     function sendEmail(e) {
       e.preventDefault();
@@ -37,12 +36,14 @@ export default function contact() {
         - SEND -
       </button>
             </form>
+            <div className="contact__JC">
             <h2>Javier Caro </h2>
-            <p>Email: Jcaro1993@mail.com</p>
-            <p>Linkedin: https://www.linkedin.com/in/jcaro94/</p>
-            <p>GitHub: https://github.com/jcaro1993</p>
-            <p>Resume: https://drive.google.com/file/d/1nhtmj4ltBOi5nXgdEvM8HRwgstCmvW6b/view?usp=sharing</p>
+            <p><a id="contact" href="mailto:Jcaro1993@gmail.com" target="_blank" rel="noopener noreferrer">Email</a></p>
+            <p><a id="contact" href="https://www.linkedin.com/in/jcaro94" target="_blank" rel="noopener noreferrer"> Linkedin</a></p>
+            <p><a id="contact" href="https://github.com/jcaro1993" target="_blank" rel="noopener noreferrer"> GitHub</a></p>
+            <p><a id="contact" href="https://drive.google.com/file/d/1nhtmj4ltBOi5nXgdEvM8HRwgstCmvW6b/view?usp=sharing" target="_blank" rel="noopener noreferrer"> Resume</a></p>
             <p>Mob: ‪(925)639.2515</p>
         </div>
-        )
+        </div>
+)
     }
